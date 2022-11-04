@@ -34,6 +34,18 @@ package com.chen.v202211;
  * 进阶：你可以想出一个时间复杂度小于 O(n2) 的算法吗？
  */
 public class a01 {
+    //    public static int[] twoSum(int[] nums, int target) {
+//        for (int i = 0; i < nums.length; i++) {
+//            int num = nums[i];
+//            int n = target - num;
+//            for (int j = i + 1; j < nums.length; j++) {
+//                if (n == nums[j]) {
+//                    return new int[]{i, j};
+//                }
+//            }
+//        }
+//        return null;
+//    }
     public static int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             int num = nums[i];
