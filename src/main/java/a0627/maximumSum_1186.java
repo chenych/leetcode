@@ -38,7 +38,17 @@ public class maximumSum_1186 {
             result = Math.max(result, Math.max(dp0, dp1));
         }
         return result;
+    }
 
-
+    public int sss(int[] arr) {
+        int result = arr[0];
+        int dp0 = arr[0];
+        int dp1 = 0;
+        for (int i = 1; i < arr.length; i++) {
+            dp1 = Math.max(dp1 + arr[i], dp0);
+            dp0 = Math.max(0, dp0) + arr[i];
+            result = Math.max(result, Math.max(dp0, dp1));
+        }
+        return result;
     }
 }
