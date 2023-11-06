@@ -6,8 +6,6 @@ package a0706;
  * <p>
  * 如果字符串的反序与原始字符串相同，则该字符串称为回文字符串。
  * <p>
- * <p>
- * <p>
  * 示例 1：
  * <p>
  * 输入：s = "babad"
@@ -17,7 +15,6 @@ package a0706;
  * <p>
  * 输入：s = "cbbd"
  * 输出："bb"
- * <p>
  * <p>
  * 提示：
  * <p>
@@ -51,7 +48,7 @@ public class b_longestPalindrome {
     }
 
     public static void main(String[] args) {
-        String s = "ababa";
+        String s = "abcba";
         System.out.println(new b_longestPalindrome().longestPalindrome(s));
     }
 }

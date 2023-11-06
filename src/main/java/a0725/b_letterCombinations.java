@@ -67,6 +67,6 @@ public class b_letterCombinations {
     }
 
     public static void main(String[] args) {
-        new b_letterCombinations().letterCombinations("23");
+        System.out.println(new b_letterCombinations().letterCombinations("23"));
     }
 }
