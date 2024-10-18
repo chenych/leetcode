@@ -52,7 +52,7 @@ public class ll_mergeKLists {
         }
 
         // 创建一个哑节点作为结果链表的头部
-        ListNode s = new ListNode(-1, null);
+        ListNode s = new ListNode(-1);
         // t用于遍历结果链表
         ListNode t = s;
 
